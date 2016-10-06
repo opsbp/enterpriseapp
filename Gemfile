@@ -45,3 +45,6 @@ group :development do
   gem 'spring'
 end
 
+group :development, :test do # <<<< :development, not devlopment
+  gem 'sqlite3'
+end
